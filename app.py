@@ -484,6 +484,7 @@ with tab_about:
         "Aplikasi ini memuat model machine learning (hasil training notebook) untuk memprediksi "
         "keterlambatan pengiriman e-commerce. Kamu bisa melakukan prediksi satu data (form) atau batch (CSV)."
     )
+
     
     st.markdown("#### 🧩 Format CSV Batch (kolom wajib)")
     st.code(", ".join(FEATURE_COLS))
