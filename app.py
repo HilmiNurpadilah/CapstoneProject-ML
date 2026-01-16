@@ -485,15 +485,6 @@ with tab_about:
         "keterlambatan pengiriman e-commerce. Kamu bisa melakukan prediksi satu data (form) atau batch (CSV)."
     )
 
-    st.markdown("#### ✅ Tips Demo untuk Dosen (biar kelihatan niat)")
-    st.markdown(
-        """
-- Tunjukkan 2–3 skenario input (mis. diskon tinggi vs rendah).
-- Ubah threshold (mis. 0.5 ke 0.7) untuk menjelaskan trade-off precision vs recall.
-- Untuk batch, upload CSV kecil (10–50 baris) dan download hasilnya.
-"""
-    )
-
     st.markdown("#### 🧩 Format CSV Batch (kolom wajib)")
     st.code(", ".join(FEATURE_COLS))
 
